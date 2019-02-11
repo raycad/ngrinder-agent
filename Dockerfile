@@ -21,8 +21,8 @@ ENV NGRINDER_CONTROLLER_IP=ngrinder-controller
 ENV NGRINDER_CONTROLLER_PORT=16001
 
 # If you want to monitor bind to the different local ip not automatically selected ip. Specify below field.
-ENV NGRINDER_MONITOR_BINDING_IP=localhost
-ENV NGRINDER_MONITOR_BINDING_PORT=13243
+# ENV NGRINDER_MONITOR_BINDING_IP=localhost
+# ENV NGRINDER_MONITOR_BINDING_PORT=13243
 
 RUN mkdir -p $NGRINDER_AGENT_HOME
 RUN mkdir -p $NGRINDER_MONITOR_HOME
