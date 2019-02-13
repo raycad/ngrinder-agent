@@ -15,7 +15,6 @@ echo "NGRINDER_CONTROLLER_PORT =" $NGRINDER_CONTROLLER_PORT
 # NGRINDER Monitor port number 13243
 # Enter the host's IP of the NGRINDER Controller container
 sudo docker run -itd \
-					-p 13243:13243 \
 					-e NGRINDER_CONTROLLER_IP=$NGRINDER_CONTROLLER_IP \
 					-e NGRINDER_CONTROLLER_PORT=$NGRINDER_CONTROLLER_PORT \
 					--name ngrinder-agent \
